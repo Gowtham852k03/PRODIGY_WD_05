@@ -3,6 +3,7 @@
   --body_background: rgb(35, 191, 212);
   --body_color:black;
   --link_color:rgb(255, 255, 255);
+
 }
 [dark-theme="dark"]{
   --body_background: #282c34;
@@ -17,13 +18,13 @@
 
 html {
   font-size:25px;
-  width: 103%;
-  overflow: hidden;
- 
+  height: 100px;
+background-color: #ffffff;
 }
 
+
 body {
-  min-height: 100vh;
+
   font-family: 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -38,19 +39,25 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  height: 100hv; 
-  width: 100%; 
+  align-items: center; 
+  overflow: hidden;
+  max-width: 550px;
+  height: 100hv;
   margin: auto;
-  max-width: 500px;
   border: 1px solid rgb(0, 0, 11);
-  margin: auto;
  
 }
+@media (min-width: 480px) {
+  .App {
+    width: 100%;
+    height: 100%;
+  } 
+  }
+
 
 header {
   width: 100%;
-  height: 10%;
+  height: 80px;
   background-color: black;
   color: aliceblue;
   display: flex;
@@ -58,12 +65,20 @@ header {
   align-items: center;
   border-bottom: 2px solid #040000;
   caret-color: transparent;
+  gap: 10px;
 }
 
 
+.dark_mode {
+
+  position: relative;
+  bottom: 25px;
+
+}
 
 main {
   width: 100%;
+  height: 100hv;
   display: flex;
   padding: 1cm;
   padding-bottom: 50px;
@@ -76,6 +91,19 @@ main {
   overflow: hidden;
   caret-color: transparent;
 }
+.bottom{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 11%;
+  position: relative;
+  bottom: 90px;
+  
+ 
+}
+
 
 footer {
   width: 100%;
@@ -90,21 +118,26 @@ footer {
   caret-color: transparent;
 }
 .headingtext{
-  font-size: 34px;
+  font-size: 55px;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
   align-items: center;
   width: 100%;
   position: relative;
-  top:10px;
-  left: 17px;
+  left: 10px;
+  margin-top: 10px;
+}
+@media (max-width: 524px) {
+ .headingtext{
+  font-size: 8vw;
+ }
 }
 .searchicon{
   font-size: 53px;
   position: relative;
   left: 15px;
-  top:3px
+ 
 }
 
 
@@ -221,48 +254,41 @@ button:hover {
   font-size: 20px;
   font-weight: bolder;
   width: 100%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   align-items: center;
    padding-bottom: 12px;
    position: relative;
-   left: 10px;
-   bottom: 70px;
+   left: 150px;
+  
  
  }
-.col {
+ .bottom{
+  width: 100%;
   display: flex;
-  align-items: center;
+  justify-content: space-between;
   
-      
-}
-.col.img-left {
-
-  display: flex;
+ }
+ .right{
   position: relative;
-  bottom: 20px;
-  left: 20px;
-  
-}
+  left:7px;
+ }
+.himages{
 
-.col.img-right {
- 
+  width: 30px;
+  height: 35px;
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  bottom: 20px;
-  left:130px;
+  right: 25px;
+  top: 48px;
+  gap: 30px;
 }
+.wimages{
 
-.col img {
-  width: 38px;
-  height: 38px;
-  margin-bottom: 35px;
-  
+  width: 30px;
+  height: 35px;
+  position: relative;
+  top: 40px;
+  right: 20px;
+  gap: 30px;
+}
    
-}
 .Humidity-percent,
 .windspeed {
   font-size: 22px;
@@ -271,7 +297,7 @@ button:hover {
 }
 
 p {
-  font-size: 22px;
+  font-size: 25px;
   font-weight: bolder;
   margin: 0;
   position: relative;
@@ -285,15 +311,15 @@ p {
 .daynight {
   font-size: 45px;
   font-weight: bolder;
-  padding-top: 20px;
   display: flex;
-  justify-content: center; 
-  align-items: center; 
-  text-align: center;
-  position: absolute;
-  top: 60PX;
-  left: 190px; 
-  transform: translateX(-30%); 
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-left: 10px;
+ 
 }
 .sun{
   color:orange;

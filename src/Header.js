@@ -3,9 +3,9 @@ import DarkModeIcon from "./Darkmodeicon";
 import { TiWeatherPartlySunny } from "react-icons/ti";
 const Header = () => {
     return (
-        <header >
+        <header className='font-weight-bold'>
             <p className='searchicon'><TiWeatherPartlySunny /></p>
-            <h1 className='headingtext'> WEATHER APP</h1>
+            <h1 className='headingtext  '> WEATHER APP</h1>
             <DarkModeIcon className="mode" />
 
         </header>

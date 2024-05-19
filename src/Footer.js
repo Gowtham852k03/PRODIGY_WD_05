@@ -1,35 +1,21 @@
 import React from 'react';
-import humidity_icon from './images/humidity.png';
-import wind_icon from './images/wind.png';
+
 import { MdSunny } from "react-icons/md";
 import { PiMoonStarsFill } from "react-icons/pi";
 
 
-const Footer = ({ humidity, windSpeed, isDay }) => {
+const Footer = ({ isDay }) => {
     return (
-        <footer>
+        <footer className='d-flex justify-content-center'>
             <div className='footer-content'>
-                <div className='bottomname'>
-                    <div className='col img-left '>
-                        <img src={humidity_icon} alt="humidity" />
-                        <div className='left'>
-                            <p className='Humidity-percent'>{humidity ? humidity + '%' : '50%'}</p>
-                            <p className='hp'>Humidity</p>
-                        </div>
-                    </div>
-                    <div className='col img-right '>
-                        <img src={wind_icon} alt="wind" />
-                        <div className='right'>
-                            <p className='windspeed '>{windSpeed ? windSpeed + ' Km/h' : '15 Km/h'}</p>
-                            <p className='wp '>windspeed  </p>
-                        </div>
-                    </div>
-                    <div className='daynight  '>
-                        <div className='dnicon'>{isDay ? <MdSunny className='sun' /> : <PiMoonStarsFill className='moon' />}</div>
-                        {isDay ? "Day" : "Night"}
 
-                    </div>
+
+                <div className='daynight display-9 text-center  '>
+                    <div className='dnicon'>{isDay === "" ? "" : isDay ? <MdSunny className='sun' /> : <PiMoonStarsFill className='moon' />}</div>
+                    {isDay === "" ? "" : isDay ? 'day' : 'night'}
+
                 </div>
+
 
             </div>
         </footer>

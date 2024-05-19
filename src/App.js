@@ -105,8 +105,9 @@ function App() {
       <Search search={search}
         changecolor={changecolor}
         changebackcolor={changebackcolor} />
-      <Content weathericon={weathericon} error={error} />
-      <Footer humidity={humidity} windSpeed={windSpeed} isDay={isDay}
+      <Content weathericon={weathericon} error={error}
+        humidity={humidity} windSpeed={windSpeed} />
+      <Footer isDay={isDay}
       />
 
     </div>
