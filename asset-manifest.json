@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Weather-App/static/css/main.73289fe1.css",
-    "main.js": "/Weather-App/static/js/main.a9a9f736.js",
-    "static/js/453.e71d487a.chunk.js": "/Weather-App/static/js/453.e71d487a.chunk.js",
-    "static/media/clouds.png": "/Weather-App/static/media/clouds.058d1121e95348721a5e.png",
-    "static/media/mist.png": "/Weather-App/static/media/mist.bec995ef50f9dab24180.png",
-    "static/media/snow.png": "/Weather-App/static/media/snow.c8ed556c8e144314a339.png",
-    "static/media/drizzle.png": "/Weather-App/static/media/drizzle.586dab4fa773ec5fbaaf.png",
-    "static/media/Sun.svg": "/Weather-App/static/media/Sun.aef8f60b836976321d24aa4163dbfb7f.svg",
-    "static/media/Moon.svg": "/Weather-App/static/media/Moon.af99a536ce1d19f741275b8554beaa63.svg",
-    "index.html": "/Weather-App/index.html",
-    "main.73289fe1.css.map": "/Weather-App/static/css/main.73289fe1.css.map",
-    "main.a9a9f736.js.map": "/Weather-App/static/js/main.a9a9f736.js.map",
-    "453.e71d487a.chunk.js.map": "/Weather-App/static/js/453.e71d487a.chunk.js.map"
+    "main.css": "/PRODIGY_WD_05/static/css/main.73289fe1.css",
+    "main.js": "/PRODIGY_WD_05/static/js/main.255578c1.js",
+    "static/js/453.e71d487a.chunk.js": "/PRODIGY_WD_05/static/js/453.e71d487a.chunk.js",
+    "static/media/clouds.png": "/PRODIGY_WD_05/static/media/clouds.058d1121e95348721a5e.png",
+    "static/media/mist.png": "/PRODIGY_WD_05/static/media/mist.bec995ef50f9dab24180.png",
+    "static/media/snow.png": "/PRODIGY_WD_05/static/media/snow.c8ed556c8e144314a339.png",
+    "static/media/drizzle.png": "/PRODIGY_WD_05/static/media/drizzle.586dab4fa773ec5fbaaf.png",
+    "static/media/Sun.svg": "/PRODIGY_WD_05/static/media/Sun.aef8f60b836976321d24aa4163dbfb7f.svg",
+    "static/media/Moon.svg": "/PRODIGY_WD_05/static/media/Moon.af99a536ce1d19f741275b8554beaa63.svg",
+    "index.html": "/PRODIGY_WD_05/index.html",
+    "main.73289fe1.css.map": "/PRODIGY_WD_05/static/css/main.73289fe1.css.map",
+    "main.255578c1.js.map": "/PRODIGY_WD_05/static/js/main.255578c1.js.map",
+    "453.e71d487a.chunk.js.map": "/PRODIGY_WD_05/static/js/453.e71d487a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73289fe1.css",
-    "static/js/main.a9a9f736.js"
+    "static/js/main.255578c1.js"
   ]
 }
